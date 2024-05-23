@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\Mustafa\source\repos\CG\CG\main.c(66,2): warning C4013: 'setup' undefined; assuming extern returning int
+main.obj : error LNK2001: unresolved external symbol setup
+C:\Users\Mustafa\source\repos\CG\x64\Release\CG.exe : fatal error LNK1120: 1 unresolved externals
