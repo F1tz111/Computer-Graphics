@@ -25,13 +25,13 @@ bool init_Window(void) {
     window = SDL_CreateWindow("My Window", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, window_width, window_height, SDL_WINDOW_BORDERLESS);
 
     if (!window) {
-        fprintf(stderr, "Error Creating Window");
+        fprintf(stderr, "Error Creating Window!");
         return false;
     }
 
     renderer = SDL_CreateRenderer(window, -1, 0);
     if (!renderer) {
-        fprintf(stderr, "Error renderering");
+        fprintf(stderr, "Error renderering!");
         return false;
     }
 
