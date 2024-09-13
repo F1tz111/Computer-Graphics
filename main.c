@@ -34,7 +34,7 @@ void myrenderer(void) {
     SDL_RenderClear(renderer);
     draw_rect(25, 25, 100, 65, 0xFFA23211);
     render_color_buffer();
-    setting_colorbuffer(0xFFFFFFF00);
+    setting_colorbuffer(0xFFFFFF000);
     SDL_RenderPresent(renderer);
 }
 
