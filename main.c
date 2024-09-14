@@ -7,6 +7,7 @@ uint32_t* color_buffer;
 SDL_Texture* color_buffer_texture;
 int window_width;
 int window_height;
+int z;
 
 void process_input() {
     SDL_Event event;
